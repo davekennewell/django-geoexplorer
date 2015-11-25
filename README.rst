@@ -1,3 +1,13 @@
+To load this into Geonode:
+
+::
+
+
+    git clone https://github.com/davekennewell/django-geoexplorer
+    sudo pip install -e django-geoexplorer
+    geonode collectstatic
+
+
 *django-geoexplorer* allows you to use `GeoExplorer <http://opengeo.org>`_
 in your `Django <https://www.djangoproject.com>`_ projects.
 
